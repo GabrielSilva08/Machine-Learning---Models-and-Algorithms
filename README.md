@@ -19,18 +19,18 @@ Pretendo nesse projeto implementar o códigos dos seguintes modelos com respeito
         - SVM (em andamento) - 🚧
         - Random Forest (em andamento) - 🚧
     - Classificação Binária
-        - Regressão Logística (em andamento) - 🚧
-        - Análise de Discriminante Gaussiano (em andamento) - 🚧
-        - Naive Bayes Gaussiano (em andamento) - 🚧
+        - Regressão Logística (feito) - ✅
+        - Análise de Discriminante Gaussiano (feito) - ✅
+        - Naive Bayes Gaussiano (feito) - ✅
         - K-NN (em andamento) - 🚧
         - Árvores de Decisão (em andamento) - 🚧
         - MLP (em andamento) - 🚧
         - SVM (em andamento) - 🚧
         - Random Forest (em andamento) - 🚧
     - Classificação Multiclasse
-        - Regressão Logística (em andamento) - 🚧
-        - Análise de Discriminante Gaussiano (em andamento) - 🚧
-        - Naive Bayes Gaussiano (em andamento) - 🚧
+        - Regressão Softmax (feito) - ✅
+        - Análise de Discriminante Gaussiano (feito) - ✅
+        - Naive Bayes Gaussiano (feito) - ✅
         - K-NN (em andamento) - 🚧
         - Árvores de Decisão (em andamento) - 🚧
         - MLP (em andamento) - 🚧
