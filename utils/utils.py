@@ -12,7 +12,7 @@ californiabin = np.genfromtxt(r"..\datasets\californiabin.csv", delimiter=",")
 quake = np.genfromtxt(r"..\datasets\quake.csv", delimiter=",")
 penguins = np.genfromtxt(r"..\datasets\penguins.csv", delimiter=",")
 
-def treine_teste_divida(X, y, /, *, train_size=0.8):
+def treine_teste_divida(X, y, /, *, train_size=0.8, random_state=-1):
     """
     -----
     Descrição:
@@ -29,6 +29,7 @@ def treine_teste_divida(X, y, /, *, train_size=0.8):
     X -> Dados de entrada
     y -> Dados de saída
     train_size -> Porcentagem dos dados dedicada ao treinamento. Por padrão, 80%.
+    random_state -> Parâmetro que garante a reproducibilidade (ou não) da divisão. Por padrão, -1 (não reprodutível).
 
     -----
     Retorno:
@@ -39,6 +40,8 @@ def treine_teste_divida(X, y, /, *, train_size=0.8):
     """
     K = y.shape[1]
     Xy = np.hstack([X, y])
+    if random_state != -1:
+        np.random.seed(random_state)
     np.random.shuffle(Xy)
     # Pegando train_size% da matriz Xy já embaralhada
     t = int(train_size*Xy.shape[0])
