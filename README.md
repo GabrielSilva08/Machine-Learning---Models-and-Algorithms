@@ -22,11 +22,11 @@ Pretendo nesse projeto implementar o códigos dos seguintes modelos com respeito
         - Regressão Logística (feito) - ✅
         - Análise de Discriminante Gaussiano (feito) - ✅
         - Naive Bayes Gaussiano (feito) - ✅
-        - K-NN (em andamento) - 🚧
-        - Árvores de Decisão (em andamento) - 🚧
+        - K-NN (feito) - ✅
+        - Árvores de Decisão (feito) - ✅
         - MLP (em andamento) - 🚧
         - SVM (em andamento) - 🚧
-        - Random Forest (em andamento) - 🚧
+        - Random Forest (feito) - ✅
     - Classificação Multiclasse
         - Regressão Softmax (feito) - ✅
         - Análise de Discriminante Gaussiano (feito) - ✅
@@ -38,10 +38,10 @@ Pretendo nesse projeto implementar o códigos dos seguintes modelos com respeito
         - Random Forest (em andamento) - 🚧
 - Aprendizado Não-Supervisionado
     - Agrupamento (clustering)
-        - K-means (em andamento) - 🚧
+        - K-means (feito) - ✅
         - DBSCAN (em andamento) - 🚧
     - Redução de Dimensionalindade
-        - PCA (em andamento) - 🚧
+        - PCA (feito) - ✅
 
 No decorrer desse projeto, pretendo utilizar somente as seguintes bibliotecas:
 
